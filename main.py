@@ -29,7 +29,7 @@ def convert_to_utf8(input_file):
 
 def parse_args():
     """解析命令行参数"""
-    parser = argparse.ArgumentParser(description="随机打乱题库选项，并生成对应答案文件。")
+    parser = argparse.ArgumentParser(description="随机打乱题库选项，并生成对应答案文件。\n This project is openspurce on GitHub: https://github.com/Elvish064/Question-Bank-Shuffler")
     parser.add_argument("-i", "--input", required=True, help="原始题库 txt 文件路径[Required]")
     parser.add_argument("-o", "--output", help="处理后题库的输出路径[Optional]")
     parser.add_argument("-a", "--answer", help="答案文件路径[Optional]")

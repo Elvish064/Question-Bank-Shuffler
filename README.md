@@ -31,8 +31,7 @@ A script to shuffle questions and generate answer files automatically for 中国
 
 ## ⬇️Installation
 ```bash
-git clone https://github.com/your-username/question-bank-shuffler.git
-cd question-bank-shuffler
+git clone https://github.com/Elvish064/Question-Bank-Shuffler
 pip install -r requirements.txt
 ```
 
